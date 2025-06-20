@@ -32,8 +32,6 @@ A high-performance, real-time collaborative whiteboard application built with cu
 - Zero data loss with offline-first architecture
 
 ## 🏗️ Architecture
-
-```mermaid
 graph TB
     A[SvelteKit Frontend] -->|WebSocket| B[Socket.io Server]
     B --> C[Redis Pub/Sub]
@@ -42,6 +40,7 @@ graph TB
     A --> F[IndexedDB]
     C --> G[Session Store]
     D --> H[PostgreSQL]
+
 # Architecture Overview
 
 ## System Design
@@ -100,3 +99,5 @@ We love your input! We want to make contributing as easy and transparent as poss
 - Write unit tests for all business logic
 - Add E2E tests for critical user flows
 - Maintain >90% code coverage
+
+
