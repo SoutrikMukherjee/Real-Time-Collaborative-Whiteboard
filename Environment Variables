@@ -1,4 +1,0 @@
-PUBLIC_SUPABASE_URL=your_supabase_url
-PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-REDIS_URL=your_redis_url
-WEBSOCKET_PORT=3001
