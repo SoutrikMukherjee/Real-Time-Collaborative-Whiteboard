@@ -31,9 +31,9 @@ A high-performance, real-time collaborative whiteboard application built with cu
 - 95% test coverage
 - Zero data loss with offline-first architecture
 
-## 🏗️ Architecture
+# 🏗️ Architecture
 
-# Architecture Overview
+## Architecture Overview
 
 ## System Design
 
