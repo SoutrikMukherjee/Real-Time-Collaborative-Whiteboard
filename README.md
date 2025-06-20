@@ -24,16 +24,16 @@ A high-performance, real-time collaborative whiteboard application built with cu
 
 #Clone the repository
 
-git clone https://github.com/SoutrikMukherjee/Real-Time-Collaborative-Whiteboard.git
+- git clone https://github.com/SoutrikMukherjee/Real-Time-Collaborative-Whiteboard.git
 
 ## Install dependencies
-npm install
+- npm install
 
 ## Set up environment variables
-cp .env.example .env
+- cp .env.example .env
 
 ## Start development servers
-npm run dev
+- npm run dev
 
 ## Environment Variables
 - envPUBLIC_SUPABASE_URL=your_supabase_url
@@ -43,14 +43,13 @@ npm run dev
 
 ## 🧪 Testing
 #Run unit tests
-
-npm run test: unit
+- npm run test: unit
 
 #Run E2E tests
-npm run test:e2e
+- npm run test:e2e
 
 #Generate coverage report
-npm run test:coverage
+- npm run test:coverage
 
 ## 📖 Documentation
 
