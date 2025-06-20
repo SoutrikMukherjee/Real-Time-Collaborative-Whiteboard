@@ -14,6 +14,61 @@ A high-performance, real-time collaborative whiteboard application built with cu
 - **Permission System**: Granular access controls for view/edit permissions
 - **Auto-save**: Automatic cloud backup with version history
 
+## 🚦 Getting Started
+# Prerequisites:
+- Node.js 18+
+- Redis 7+
+- Supabase account
+
+# Installation
+in bash:
+#Clone the repository
+git clone https://github.com/SoutrikMukherjee/Real-Time-Collaborative-Whiteboard.git
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development servers
+npm run dev
+
+# Environment Variables
+- envPUBLIC_SUPABASE_URL=your_supabase_url
+- PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+- REDIS_URL=your_redis_url
+- WEBSOCKET_PORT=3001
+
+# 🧪 Testing
+in bash:
+#Run unit tests
+npm run test: unit
+
+#Run E2E tests
+npm run test:e2e
+
+#Generate coverage report
+npm run test:coverage
+
+# 📖 Documentation
+
+- Architecture Overview
+- API Documentation
+- Deployment Guide
+- Contributing Guidelines
+
+# 🤝 Contributing
+- Contributions are welcome! Please read our Contributing Guidelines first.
+
+# 📄 License
+- This project is licensed under the MIT License - see the LICENSE file for details.
+
+# 🙏 Acknowledgments
+- Inspired by Figma's multiplayer technology
+- OT algorithm based on OT.js
+- UI components from Tailwind UI
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: SvelteKit (72.8% developer satisfaction)
