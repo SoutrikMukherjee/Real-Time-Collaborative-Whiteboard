@@ -14,15 +14,16 @@ A high-performance, real-time collaborative whiteboard application built with cu
 - **Permission System**: Granular access controls for view/edit permissions
 - **Auto-save**: Automatic cloud backup with version history
 
-## 🚦 Getting Started
-# Prerequisites:
+# 🚦 Getting Started
+## Prerequisites:
 - Node.js 18+
 - Redis 7+
 - Supabase account
 
-# Installation
-in bash:
+## Installation
+
 #Clone the repository
+
 git clone https://github.com/SoutrikMukherjee/Real-Time-Collaborative-Whiteboard.git
 
 # Install dependencies
@@ -41,8 +42,8 @@ npm run dev
 - WEBSOCKET_PORT=3001
 
 # 🧪 Testing
-in bash:
 #Run unit tests
+
 npm run test: unit
 
 #Run E2E tests
