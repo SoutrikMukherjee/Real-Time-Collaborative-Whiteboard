@@ -1,0 +1,11 @@
+# Clone the repository
+git clone https://github.com/SoutrikMukherjee/Real-Time-Collaborative-Whiteboard.git
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development servers
+npm run dev
