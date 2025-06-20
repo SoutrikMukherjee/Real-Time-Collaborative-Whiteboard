@@ -33,8 +33,6 @@ A high-performance, real-time collaborative whiteboard application built with cu
 
 # 🏗️ Architecture
 
-## Architecture Overview
-
 ## System Design
 
 This platform implements a distributed real-time collaboration system with the following components:
